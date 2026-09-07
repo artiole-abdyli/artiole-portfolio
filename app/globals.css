@@ -124,8 +124,13 @@ h1 em{color:#6744be}
 .project-description{font-size:13px;line-height:1.5;color:#bec8c0;max-width:460px;min-height:58px}
 .tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:19px}
 .tags span{font-size:10px;border:1px solid #56645c;border-radius:20px;padding:5px 9px;color:#e1e8df}
-.project-note{color:#a8b5ac;font-size:12px;margin:40px 0 0;padding-top:19px}
-.capabilities{padding:115px 0}
+
+.project-note {
+    color: black;
+    margin: 40px 0 0;
+    padding-top: 19px;
+    font-size: 18px;
+}.capabilities{padding:115px 0}
 .capability-list{border-top:1px solid var(--line)}
 .capability{display:grid;grid-template-columns:.15fr .7fr 1fr .12fr;align-items:center;min-height:123px;border-bottom:1px solid var(--line);gap:20px;position:relative;padding-inline:12px;transition:background-color .3s ease,transform .3s ease}
 .capability span{font:11px monospace;color:#809087}
