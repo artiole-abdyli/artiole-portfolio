@@ -147,87 +147,120 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* HERO */}
-      <section className="hero shell" id="top">
-        <div className="hero-copy">
-          
-<div className="availability-badge">
-  <span className="availability-dot"></span>
-  <span>Available for hire</span>
-</div>
-          <h1>
-            Artiole Abdyli-full stack developer
-            <br />
-            <em></em>
-          </h1>
+    <section className="hero shell" id="top">
+  <div className="hero-copy">
 
-          <p className="hero-intro">
-            I&apos;m Artiolë, a full stack developer creating thoughtful
-            digital products and business systems with Laravel and Next.js.
-          </p>
+    <a href="#contact" className="availability">
+      <span className="availability-terminal">
+        <span className="terminal-symbol">&gt;</span>
+        <span>status</span>
+      </span>
 
-          <div className="hero-actions">
-            <a className="button button-dark" href="#work">
-              Explore my work
-            </a>
+      <span className="availability-divider">/</span>
 
-            <a
-              className="text-link"
-              href="mailto:abdylartiola1@gmail.com"
-            >
-              Get in touch
-            </a>
-          </div>
-        </div>
+      <span className="availability-status">
+        <span className="status-dot" />
+        Open to work
+      </span>
 
-        <div
-          className="hero-art"
-          aria-label="Decorative developer illustration"
-        >
-          <div className="orb orb-one" />
-          <div className="orb orb-two" />
+      <span className="availability-arrow">↗</span>
+    </a>
 
-          <div className="code-window">
-            <div className="window-bar">
-              <i />
-              <i />
-              <i />
-              <span>app.tsx</span>
-            </div>
+    <p className="hero-kicker">
+      Laravel · Next.js · React · Full Stack
+    </p>
 
-            <pre>
-              <code>
-                <b>const</b> developer = &#123;
-                {"\n"} name: <strong>&quot;Artiolë&quot;</strong>,
-                {"\n"} focus: [
-                <strong>&quot;Laravel&quot;</strong>,{" "}
-                <strong>&quot;Next.js&quot;</strong>],
-                {"\n"} experience: <mark>4+</mark> years,
-                {"\n"} mindset:{" "}
-                <strong>&quot;build useful things&quot;</strong>
-                {"\n"}&#125;;
-              </code>
-            </pre>
-          </div>
+    <h1>
+      <span>Artiole Abdyli -Full stack developer</span>
+      
+    </h1>
 
-          <div className="floating-card card-build"></div>
+    <p className="hero-intro">
+      I build scalable web applications and business systems
+      that turn complex workflows into simple, reliable digital
+      experiences.
+    </p>
 
-          <div className="floating-card card-location">
-            <span>⌖</span>
+    <div className="hero-actions">
+      <a className="button button-dark" href="#work">
+        Explore my work
+      </a>
 
-            <div>
-              <small>Based in</small>
-              <b>Kosovo &amp; Sweden</b>
-            </div>
-          </div>
+     
+    </div>
 
-          <div className="grid-lines" />
-        </div>
+    <div className="hero-meta">
+      <div>
+        <strong>4+</strong>
+        <span>Years experience</span>
+      </div>
 
-        <div className="hero-foot">
-          <span>Full stack developer · 2026</span>
-        </div>
-      </section>
+      <div>
+        <strong>FULL STACK</strong>
+        <span>Development</span>
+      </div>
+
+      <div>
+        <strong>REMOTE</strong>
+        <span>Available worldwide</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div
+    className="hero-art"
+    aria-label="Developer workspace illustration"
+  >
+    <div className="orb orb-one" />
+    <div className="orb orb-two" />
+
+    <div className="code-window">
+      <div className="window-bar">
+        <i />
+        <i />
+        <i />
+        <span>app.tsx</span>
+      </div>
+
+      <pre>
+        <code>
+          <b>const</b> developer = &#123;
+          {"\n\n"}  name: <strong>&quot;Artiolë&quot;</strong>,
+          {"\n"}  role: <strong>&quot;Full Stack Developer&quot;</strong>,
+          {"\n"}  stack: [
+          {"\n"}    <strong>&quot;Laravel&quot;</strong>,
+          {"\n"}    <strong>&quot;Next.js&quot;</strong>,
+          {"\n"}    <strong>&quot;React&quot;</strong>
+          {"\n"}  ],
+          {"\n"}  experience: <mark>4+</mark> years,
+          {"\n"}  availability: <strong>&quot;open&quot;</strong>
+          {"\n"}&#125;;
+        </code>
+      </pre>
+    </div>
+
+    <div className="floating-card card-location">
+      <span>⌖</span>
+
+      <div>
+        <small>Based in</small>
+        <b>Kosovo &amp; Sweden</b>
+      </div>
+    </div>
+
+    
+    <div className="grid-lines" />
+  </div>
+
+  <div className="hero-foot">
+    <span>Full stack developer · 2026</span>
+
+    <span>
+      Available for full-time &amp; remote opportunities
+    </span>
+  </div>
+</section>
 
       {/* ABOUT */}
       <section className="statement shell" id="about">
