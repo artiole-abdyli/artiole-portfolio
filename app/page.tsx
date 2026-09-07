@@ -150,9 +150,7 @@ export default function Home() {
       {/* HERO */}
       <section className="hero shell" id="top">
         <div className="hero-copy">
-          <p className="eyebrow">
-            Available for selected projects
-          </p>
+          
 
           <h1>
             Full stack developer
