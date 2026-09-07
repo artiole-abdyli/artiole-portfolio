@@ -174,7 +174,7 @@ footer{background:#111111;color:#ffffff;padding:83px 0 27px}
 .stack{padding-bottom:80px}
 .stack-grid{grid-template-columns:1fr 1fr}
 .stack-grid div:nth-child(2){border:0}
-.stack-grid div:nth-child(n+3){border-top:1px solid var(--line)}
+
 .footer-bottom{margin-top:60px;display:block;line-height:2}
 .footer-bottom span,.footer-bottom a{display:block}
 .footer-bottom span:nth-child(2){margin-left:0}
