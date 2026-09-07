@@ -98,7 +98,7 @@ h1 em{color:#6744be}
 .work-section{color:#f7f8f2;padding:103px 0 88px}
 
 .section-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:46px}
-.section-label{color:#b8c7bb}
+.section-label{color:black;font-size: 16px;}
 .muted{color:#86948b;font-size:14px;max-width:275px;line-height:1.5;margin:0}
 .projects{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 .project{background:#26312c}
