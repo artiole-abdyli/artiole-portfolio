@@ -151,7 +151,10 @@ export default function Home() {
       <section className="hero shell" id="top">
         <div className="hero-copy">
           
-
+<div className="availability-badge">
+  <span className="availability-dot"></span>
+  <span>Available for hire</span>
+</div>
           <h1>
             Artiole Abdyli-full stack developer
             <br />

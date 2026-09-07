@@ -124,7 +124,43 @@ h1 em{color:#6744be}
 .project-description{font-size:13px;line-height:1.5;color:#bec8c0;max-width:460px;min-height:58px}
 .tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:19px}
 .tags span{font-size:10px;border:1px solid #56645c;border-radius:20px;padding:5px 9px;color:#e1e8df}
+.availability-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 13px;
+  border: 1px solid #d9ddd9;
+  border-radius: 999px;
+  background: #f8faf8;
+  color: #25322d;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
 
+.availability-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #35a853;
+  box-shadow: 0 0 0 4px rgba(53, 168, 83, 0.1);
+  animation: availability-pulse 2s ease-in-out infinite;
+}
+
+@keyframes availability-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.55;
+    transform: scale(0.85);
+  }
+}
 .project-note {
     color: black;
     margin: 40px 0 0;
