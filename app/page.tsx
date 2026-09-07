@@ -1,8 +1,8 @@
 const projects = [
-  { number: "01", title: "Mesh App", type: "Business management platform", description: "A continuously developed business platform bringing CRM, projects, tasks, documents, purchases, finances, automation and time tracking into one place.", stack: ["Laravel", "Next.js", "MySQL"], accent: "violet" },
+  { number: "01", title: "Mesh App", type: "Business management platform", description: "A full-featured business management platform combining CRM, project management, time tracking, invoicingand reporting in one system.", stack: ["Laravel", "Next.js", "MySQL"], accent: "violet" },
   { number: "02", title: "CRM & Webshop", type: "German client · outsourced development", description: "A CRM and webshop for an international business, with pipeline management, invoicing, forecasting, order processing and delivery tracking.", stack: ["Next.js", "refine", "Supabase"], accent: "lime" },
   { number: "03", title: "Woostock", type: "Commerce operations platform", description: "A custom operations platform connected to WooCommerce, consolidating products, customers, orders, invoices and delivery notes.", stack: ["Laravel", "Next.js", "WooCommerce API"], accent: "coral" },
-  { number: "04", title: "Jobsmentor", type: "Multilingual job platform", description: "A role-based platform for companies, administrators and candidates, covering job publishing, applications and notifications.", stack: ["Laravel", "Next.js", "REST APIs"], accent: "blue" },
+  { number: "04", title: "Jobsmentor", type: "Multilingual job platform", description: "A multilingual job platform connecting companies, administrators and candidates through job publishing, applications, notifications and role-based workflows.", stack: ["Laravel", "Next.js", "REST APIs"], accent: "blue" },
 ];
 const capabilities = [["01", "Web applications", "Building focused, reliable platforms that support real business workflows."], ["02", "Backend & APIs", "Designing Laravel backends, database logic, integrations and secure REST APIs."], ["03", "Product interfaces", "Creating responsive dashboards, forms and dynamic interfaces with Next.js and React."]];
 const toolkit = [
