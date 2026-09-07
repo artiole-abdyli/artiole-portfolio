@@ -253,13 +253,7 @@ export default function Home() {
     <div className="grid-lines" />
   </div>
 
-  <div className="hero-foot">
-    <span>Full stack developer · 2026</span>
-
-    <span>
-      Available for full-time &amp; remote opportunities
-    </span>
-  </div>
+  
 </section>
 
       {/* ABOUT */}
