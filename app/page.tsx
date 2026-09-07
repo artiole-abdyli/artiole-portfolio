@@ -153,7 +153,7 @@ export default function Home() {
           
 
           <h1>
-            Full stack developer
+            Artiole Abdyli-full stack developer
             <br />
             <em></em>
           </h1>
